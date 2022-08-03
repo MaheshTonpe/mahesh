@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 30%;
+}
+
+div li {
+    border: 2px;
+}
+
+.bmw-logo img {
+    flex-wrap: wrap;
+    width: 100px;
+}
+
+.bmw-logo {
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    color: antiquewhite;
+}
+
+.name li {
+    list-style: none;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-family: Arial;
+}
+
+nav li {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div {
+    list-style: none;
+    justify-content: space-between;
+    background-color: rgb(47, 54, 54);
+}
+
+.search-icon input {
+    width: 40%;
+    height: 5%;
+    margin-bottom: 100px;
+    position: absolute;
+    border-radius: 10px 10px 10px 10px;
+    border: 3px solid rgb(241, 178, 17);
+    padding: auto;
+    flex-wrap: wrap;
+
+}
+
+.name {
+    margin-left: 100px;
+    position: absolute;
+    transition: 1s;
+}
+
+ul li a {
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: rgb(241, 178, 17);
+}
+
+.name:hover {
+    cursor: pointer;
+    color: rgb(241, 178, 17);
+}
+
+.search-icon input:hover {
+    font-size: large;
+    font-family: Arial;
+    color: rgb(9, 8, 8);
+}
+
+.container2 {
+    display: flex;
+    background-color: dimgray;
+}
+
+.container2 img {
+    border: 5px solid black;
+}
+
+.container3 {
+    display: flex;
+    justify-content: left;
+    background-color: dimgray;
+}
+
+.container3 img {
+    border: 5px solid black;
+
+}
+
+.container4 {
+    display: flex;
+    justify-content: left;
+    background-color: dimgray;
+}
+
+.container4 img {
+
+    background-color: rgb(103, 124, 149);
+    height: 280px;
+    width: 474px;
+    border: 5px solid black;
+
+}
+
+p {
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Arial;
+    color: rgb(246, 231, 234);
+    border: 5px solid rgb(17, 9, 9);
+    margin-right: 3px;
+    padding: 5px;
+}
+
+.container2 p {
+    margin-left: 0px;
+}
+
+.container3 p {
+    margin-left: 0px;
+}
+
+.container4 p {
+    margin-left: 0px;
+}
+
+p:hover {
+    color: rgb(241, 178, 17)
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: darkolivegreen;
+    border: 2px solid rgb(10, 10, 10);
+}

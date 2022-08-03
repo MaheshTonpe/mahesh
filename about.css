@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 750px;
+    padding: 30px;
+    display: flex;
+    background-color: rgb(16, 177, 177);
+    justify-content: space-between;
+}
+
+.box {
+    width: 350px;
+    height: 320px;
+    margin-top: 40px;
+    display: flex;
+    background-color: rgb(245, 143, 143);
+}
+
+.box h2 {
+    display: block;
+
+    margin-top: 120px;
+    margin-left: 0px;
+}
+
+.box img {
+    position: relative;
+    left: 50%;
+    top: 3%;
+    transform: translatex(-50%);
+    height: 100px;
+    width: 100px;
+}
+
+button {
+    background-color: red;
+    width: 167px;
+}
